@@ -1,0 +1,4 @@
+{
+  "format": "markdown",
+  "content": "# Docker study notes\n\nUse this shared note to add examples, questions, and explanations alongside the curated [Docker fundamentals guide](/dashboard/devops/docker).\n\n## Key ideas\n\n- An image is a read-only template; a container is an instance of an image.\n- Containers share the host kernel; they are not virtual machines.\n- Use volumes for data that must outlive a container.\n\n## Questions and examples\n\nAdd your group's notes below."
+}

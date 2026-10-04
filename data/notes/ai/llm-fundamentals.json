@@ -1,0 +1,4 @@
+{
+  "format": "markdown",
+  "content": "# LLM fundamentals\n\nA large language model (LLM) predicts likely next tokens from its context. It can produce useful text and code, but fluent output is not a guarantee of factual accuracy or safe behavior.\n\n## Useful concepts\n\n- **Token:** a unit of text processed by the model; it may be smaller or larger than a word.\n- **Context window:** the input and generated content available during one request.\n- **Prompt:** instructions and context provided to guide a response.\n- **Inference:** generating output from a trained model.\n\n## Use responsibly\n\nVerify factual claims, test generated code, avoid sharing sensitive information without approval, and consider bias, privacy, licensing, and the impact of errors in the intended use case.\n\nRecord examples and evaluation notes for your group below."
+}

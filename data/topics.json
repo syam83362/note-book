@@ -1,0 +1,56 @@
+[
+  {
+    "id": "docker-notes",
+    "areaId": "devops",
+    "title": "Docker study notes",
+    "description": "Shared notes and examples for Docker.",
+    "noteFile": "docker-notes.json",
+    "createdBy": "starter-content",
+    "contributorIds": [],
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "updatedBy": "starter-content",
+    "revision": 1
+  },
+  {
+    "id": "secure-ci-cd",
+    "areaId": "devsecops",
+    "title": "Secure CI/CD foundations",
+    "description": "Practical starting points for protecting build and release pipelines.",
+    "noteFile": "secure-ci-cd.json",
+    "createdBy": "starter-content",
+    "contributorIds": [],
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "updatedBy": "starter-content",
+    "revision": 1
+  },
+  {
+    "id": "llm-fundamentals",
+    "areaId": "ai",
+    "title": "LLM fundamentals",
+    "description": "Core concepts for understanding and using large language models.",
+    "noteFile": "llm-fundamentals.json",
+    "createdBy": "starter-content",
+    "contributorIds": [],
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "updatedBy": "starter-content",
+    "revision": 1
+  },
+  {
+    "id": "linux-fadcfd5d",
+    "areaId": "devops",
+    "title": "linux",
+    "description": "Linux for the devops",
+    "noteFile": "linux-fadcfd5d.json",
+    "createdBy": "YhbK0LozmEPLVBZiLUnRNyYICzp2",
+    "contributorIds": [
+      "YhbK0LozmEPLVBZiLUnRNyYICzp2"
+    ],
+    "createdAt": "2026-10-04T16:59:42.014Z",
+    "updatedAt": "2026-10-04T17:00:14.852Z",
+    "updatedBy": "YhbK0LozmEPLVBZiLUnRNyYICzp2",
+    "revision": 2
+  }
+]

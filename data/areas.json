@@ -1,0 +1,23 @@
+[
+  {
+    "id": "devops",
+    "number": "01",
+    "title": "DevOps",
+    "description": "Build a stronger delivery workflow, from version control to reliable deployments.",
+    "topics": ["Docker", "CI/CD", "Cloud & infrastructure"]
+  },
+  {
+    "id": "devsecops",
+    "number": "02",
+    "title": "DevSecOps",
+    "description": "Bring practical security habits into every stage of the development lifecycle.",
+    "topics": ["Application security", "Threat modeling", "Secure pipelines"]
+  },
+  {
+    "id": "ai",
+    "number": "03",
+    "title": "AI",
+    "description": "Explore the tools, ideas, and workflows shaping modern software engineering.",
+    "topics": ["LLMs", "AI tooling", "Responsible use"]
+  }
+]

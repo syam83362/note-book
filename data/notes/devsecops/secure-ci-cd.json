@@ -1,0 +1,4 @@
+{
+  "format": "markdown",
+  "content": "# Secure CI/CD foundations\n\n## Protect the pipeline\n\n- Require reviewed changes and protect release branches.\n- Use short-lived, least-privilege credentials where supported.\n- Keep secrets out of source code, logs, artifacts, and build arguments.\n- Pin and review third-party actions, plugins, and dependencies.\n\n## Add security checks\n\nRun secret detection, dependency checks, static analysis, and container/image scanning as part of the workflow. Set clear ownership for findings and avoid treating a passing scanner as proof that software is secure.\n\n## Release safely\n\nBuild once and promote the same immutable artifact between environments. Record provenance, restrict production deployment permissions, and keep a tested rollback path.\n\nAdd environment-specific examples and decisions for your team below."
+}
