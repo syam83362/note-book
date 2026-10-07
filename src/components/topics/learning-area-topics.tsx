@@ -84,42 +84,6 @@ export function LearningAreaTopics({ areaId }: { areaId: LearningAreaId }) {
       </section>
 
       <section aria-labelledby="topics-heading" className="mt-10">
-        {areaId === "devops" && (
-          <div className="mb-10">
-            <div className="mb-4">
-              <h2 className="text-xl font-semibold tracking-tight text-stone-950">
-                Start here
-              </h2>
-              <p className="mt-1 text-sm text-stone-500">
-                A guided introduction to the Docker essentials.
-              </p>
-            </div>
-            <Link
-              className="group block rounded-2xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-500"
-              href="/dashboard/devops/docker"
-            >
-              <article className="flex flex-col gap-5 rounded-2xl border border-amber-300 bg-amber-50/60 p-6 transition-colors group-hover:bg-amber-50 sm:flex-row sm:items-center sm:justify-between sm:p-8">
-                <div className="max-w-2xl">
-                  <span className="inline-flex rounded-full border border-amber-300 bg-white px-3 py-1 text-xs font-semibold text-stone-600">
-                    DOCKER GUIDE
-                  </span>
-                  <h3 className="mt-4 text-2xl font-semibold tracking-tight text-stone-950">
-                    Docker fundamentals
-                  </h3>
-                  <p className="mt-2 text-sm leading-6 text-stone-600">
-                    A practical guide to images, containers, Dockerfiles, storage,
-                    networking, and Compose.
-                  </p>
-                </div>
-                <span className="inline-flex min-h-11 shrink-0 items-center justify-center rounded-lg bg-stone-950 px-4 py-2.5 text-sm font-semibold text-white transition-colors group-hover:bg-stone-800">
-                  Read the guide
-                  <span aria-hidden="true" className="ml-2 text-amber-300">→</span>
-                </span>
-              </article>
-            </Link>
-          </div>
-        )}
-
         <div className="mb-5">
           <h2 className="text-xl font-semibold tracking-tight text-stone-950" id="topics-heading">
             {areaId === "devops" ? "Shared notes" : "Topics"}
